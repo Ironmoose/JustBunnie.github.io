@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-page {
+    height: 700px;
+    background: #D04992;
+    display: inline-block;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Mali, cursive;
+    background-color: #D04992;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin-left: 500px;
+}
+
+.logo-pic {
+    width: 60px;
+    border-radius: 20%;
+}
+
+.logo-name {
+    margin-left: 1rem;
+    font-size: 3rem;
+}
+
+.nav-obj {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    right: 20px;
+}
+
+.nav-obj a {
+    color: inherit;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.nav-obj a:hover {
+    color: #adadad;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(61, 8, 86, 0.17);
+}
+
+.Donate-btn {
+    background-color: #55C1AE;
+    border-radius: .5rem;
+    padding: .75rem 1.5rem;
+    margin: 10px;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 10px;
+    position: absolute;
+    bottom: 450px;
+    font-size: 30px;
+    right: 0px;
+}
+
+.big-pic {
+    width: 500px;
+    position: absolute;
+    top: 30vh;
+    left: 820px;
+}
+
+.yt-img {
+    width: 250px;
+    border-radius: 20%;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+}
+
+.yt-sign {
+    width: 500px;
+    position: absolute;
+    top: 240px;
+    left: 300px;
+}
+
+.twitch-img {
+    width: 250px;
+    border-radius: 20%;
+    position: absolute;
+    top: 660px;
+    left: 500px;
+}
+
+.twitch-sign {
+    width: 500px;
+    position: absolute;
+    top: 580px;
+    left: 50px;
+}
+
+h2 {
+    color: #ffffff;
+    margin: 10px;
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    right: 500px;
+}
+
+h2 a {
+    text-decoration: none;
+}
+
+.twitter {
+    width: 250px;
+    position: absolute;
+    top: 150vh;
+    right: 100px;
+}
+
+.insta {
+    width: 250px;
+    position: absolute;
+    top: 150vh;
+    left: 100px;
+}
